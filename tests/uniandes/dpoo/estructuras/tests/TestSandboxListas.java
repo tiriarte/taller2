@@ -652,9 +652,8 @@ class TestSandboxListas
             if( cantidad > maximaCantidad )
                 maximaCantidad = cantidad;
         }
-
+        
         double proporcionExacta = 10000.0 / 21.0;
-
         if( minimaCantidad < ( proporcionExacta * 0.8 ) )
             fail( "Los valores no están bien distribuidos" );
     }
